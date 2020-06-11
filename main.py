@@ -17,8 +17,21 @@ async def on_ready(): #função chamada quando o bot loga
 async def on_message (message):
     if message.author == client.user: #previne o bot de chamar a si mesmo
         return
+
+
+    if message.content.startswith('edhelp'):
+        texto = open('help.txt')
+        for i in range(random.randint(1,13)):
+            linha = texto.readline()
+            await message.channel.send(linha)
+
     if message.content.startswith('edchegou'): #quando o bot recebe uma mensagem
         await message.channel.send('Ednaldo Pereira Chegou!')
+        valor = random.randint(1,10)
+        if valor == 1:
+            await message.channel.send('Para alegria do servidor.')
+        if valor == 2:
+            await message.channel.send('Para acabar com a tristeza dos corações tristes.')
 
     if message.content.startswith('ediga'): #repete o que o usuário diz
         fullmsg = (message.content)
@@ -67,6 +80,9 @@ async def on_message (message):
     if message.content.startswith('ed10'): #seta a rolagem de um d10
         valor = random.randint(1,10)
         await message.channel.send(valor)
+    if message.content.startswith('ed%'): #seta a rolagem de um d10
+        valor = random.randint(1,10)
+        await message.channel.send('{}%'.format(valor*10))
     if message.content.startswith('ed8'): #seta a rolagem de um d8
         valor = random.randint(1,8)
         await message.channel.send(valor)

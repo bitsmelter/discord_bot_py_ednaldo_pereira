@@ -1,0 +1,13 @@
+**Comandos:**
+oi ednaldo = *cumprimeinto de Ednaldo Pereira*
+edchegou = *saldação de Ednaldo Pereira*
+ediga = *use o comando e escreva sua mensagem para que Ednaldo Pereira repita*
+edviado = *Ednaldo Pereira esculhmaba você de volta*
+valenada = *vale tudo*
+valetudo = *vale nada*
+edpeida = *Ednaldo Pereira solta um peido no seu servidor*
+edpokemon = Ednaldo Pereira diz o nome de um pokémon
+edmoeda = *Ednaldo Pereira joga uma moeda pra cima e lhe manda emoji de cara ou coroa*
+edvinha = *faça sua pergunta de sim ou não para Ednaldo Pereira adivinhar a resposta*
+__Ednaldo Pereira também tem todos os dados de RPG, incluindo o de porcentagem.__
+*Então mande* ed4, ed6, ed8, ed10, ed%, ed12, ed20 *para rolar os dados*
